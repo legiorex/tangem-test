@@ -1,0 +1,22 @@
+@use 'styles/media-queries' as *;
+
+.buttons {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+
+  @include media($tablet-m) {
+    display: none;
+  }
+}
+.buttonShop {
+  border: none;
+  padding: 10px 14px;
+  border-radius: 100px;
+}
+.menu {
+  display: none;
+  @include media($tablet-m) {
+    display: initial;
+  }
+}
