@@ -5,14 +5,18 @@ import gift from 'assets/gift.webp'
 
 import s from './s.module.scss'
 
-const BlackFridayBanner: FC = () => {
+type Props = {
+  onClose: () => void
+}
+
+const BlackFridayBanner: FC<Props> = ({ onClose }) => {
   return (
     <div className={s.banner}>
       <div className={s.imgWrapper}>
         <img alt="gift" className={s.img} src={gift} />
       </div>
       <div className={s.description}>
-        <Close className={s.closeBtn} />
+        <Close className={s.closeBtn} onClick={onClose} />
         <h2 className={s.title}>Black Friday</h2>
         <h2 className={s.sale}>10%OFF</h2>
         <p className={s.code}>

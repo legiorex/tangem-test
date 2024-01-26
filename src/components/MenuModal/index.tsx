@@ -18,9 +18,7 @@ const MenuModal: FC<Props> = ({ isOpen, onClose }) => {
       </p>
 
       <button className={s.button}>Shop now</button>
-      <button className={s.button} onClick={onClose}>
-        Close Banner
-      </button>
+
       <button className={s.button} onClick={onClose}>
         Close Modal
       </button>

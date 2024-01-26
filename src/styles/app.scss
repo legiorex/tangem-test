@@ -30,3 +30,8 @@ b,
 em {
   font-weight: 600;
 }
+
+#root {
+  height: calc(100vh * 2);
+  overflow-x: hidden;
+}
