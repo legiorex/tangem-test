@@ -1,8 +1,8 @@
 import { createRoot } from 'react-dom/client'
 
-import 'styles/app.scss'
+import App from 'pages/Main'
 
-import App from './App.tsx'
+import 'styles/app.scss'
 
 const root = createRoot(document.getElementById('root') as HTMLElement)
 
