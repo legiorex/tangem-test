@@ -1,0 +1,29 @@
+@use 'styles/media-queries' as *;
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: #0b0b0b;
+  border-radius: 8px;
+  margin: 12px 12px 0px auto;
+  padding: 12px;
+  gap: 8px;
+}
+.button {
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.code {
+  text-align: center;
+  display: none;
+  em {
+    color: #d7a830;
+  }
+  @include media($tablet-s) {
+    display: initial;
+  }
+}

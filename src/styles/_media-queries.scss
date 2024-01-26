@@ -1,0 +1,10 @@
+$mobile-m: 393px;
+$tablet-s: 650px;
+$tablet-m: 834px;
+$tablet-l: 970px;
+
+@mixin media($media, $minmax: max) {
+  @media only screen and (#{$minmax}-width: $media) {
+    @content;
+  }
+}

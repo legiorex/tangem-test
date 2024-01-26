@@ -14,3 +14,19 @@
 *::after {
   box-sizing: border-box;
 }
+
+p,
+b,
+em,
+span {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.048px;
+}
+b,
+em {
+  font-weight: 600;
+}
