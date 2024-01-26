@@ -13,6 +13,18 @@
   border: none;
   padding: 10px 14px;
   border-radius: 100px;
+
+  p {
+    background: linear-gradient(90deg, #aeaeae, #000);
+    display: block;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 17.6px */
+  }
 }
 .menu {
   display: none;

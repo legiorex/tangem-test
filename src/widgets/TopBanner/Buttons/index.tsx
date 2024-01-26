@@ -13,7 +13,9 @@ const Buttons: FC = () => {
   return (
     <>
       <div className={s.buttons}>
-        <button className={s.buttonShop}>Shop now</button>
+        <button className={s.buttonShop}>
+          <p>Shop now</p>
+        </button>
         <Close />
       </div>
       <Arrow className={s.menu} onClick={() => setOpen(true)} />
